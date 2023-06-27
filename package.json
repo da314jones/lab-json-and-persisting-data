@@ -1,0 +1,24 @@
+{
+  "name": "lab-json-and-persisting-data",
+  "version": "1.0.0",
+  "description": "You will build an app that generates a fake data set for a new app with the npm package `faker-js@7`.",
+  "main": "index.js",
+  "scripts": {
+    "create": "node index.js create",
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "jest": "^25.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "faker": "^5.5.3",
+    "nanoid": "^4.0.2",
+    "uuid": "^9.0.0"
+  }
+}
